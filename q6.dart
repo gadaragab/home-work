@@ -1,11 +1,10 @@
-/*Create a string variable password and set it to 'secret'.
-- If password equals 'secret', print 'Access granted', otherwise print 'Access denied'*/
+/*Exercise:Use a for loop to iterate through numbers 1 to 20. For each number, print whether it's even or odd. */
 void main() {
-  String password = 'secret';
-
-  if (password == 'secret') {
-    print('Access granted');
-  } else {
-    print('Access denied');
+  for (int i = 1; i <= 20; i = i + 1) {
+    if (i % 2 == 0) {
+      print("$i it's even");
+    } else {
+      print('$i odd');
+    }
   }
 }

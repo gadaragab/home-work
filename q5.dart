@@ -1,12 +1,13 @@
-//Create two integer variables, x and y, with values 50 and 30 respectively.
-//- Print true if x is less than y, otherwise print false.
+/*Exercise: Write a program that checks the role of a user (e.g., admin, user, guest). Print 'Welcome Admin' if the role is
+admin, 'Welcome User' if it's user, and 'Welcome Guest' otherwise.*/
 void main() {
-  int x = 50;
-  int y = 30;
-  bool xIsLess = x < y;
-  if (xIsLess) {
-    print('true');
+  bool isAdmin = false;
+  bool isUser = false;
+  if (isAdmin) {
+    print('Welcome User');
+  } else if (isUser) {
+    print('Welcome User');
   } else {
-    print('false');
+    print('Welcome Guest');
   }
 }
