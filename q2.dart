@@ -1,14 +1,14 @@
-/*Create a Dart program that declares and initializes variables of different types (int, double, String, bool).
-Calculate the sum of two numbers, concatenate two strings, and print out the results.*/
+/*Declare three variables:
+- An integer named age with a value of 25.
+- A double named height with a value of 5.9.
+- A string named name with a value of "Dart Programmer".
+Print each variable's value*/
 void main() {
-  int number = 14;
-  double number2 = 13.5;
-  int number3 = 17;
-  String name = 'hello dart';
-  String name2 = 'ghada,';
-  bool isHungry = false;
+  int age = 25;
+  double height = 5.9;
+  String name = "Dart Programmer";
 
-  int sum = number + number3;
-  print('the sum of two numbers is: $sum');
-  print(name2 + name);
+  print(age);
+  print(name);
+  print(height);
 }

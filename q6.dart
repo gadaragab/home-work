@@ -1,10 +1,12 @@
-/*Exercise:Use a for loop to iterate through numbers 1 to 20. For each number, print whether it's even or odd. */
+/*Create a function called calculateArea that takes two parameters: length and width. The function
+should return the area of a rectangle. Call the function and print the result.*/
+
 void main() {
-  for (int i = 1; i <= 20; i = i + 1) {
-    if (i % 2 == 0) {
-      print("$i it's even");
-    } else {
-      print('$i odd');
-    }
-  }
+  print(calculateArea(20, 30));
+}
+
+double calculateArea(double length, double width) {
+  double areaOfRectangle = length * width;
+
+  return areaOfRectangle;
 }

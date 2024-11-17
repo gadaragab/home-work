@@ -1,13 +1,11 @@
-/*Exercise: Write a program that checks the role of a user (e.g., admin, user, guest). Print 'Welcome Admin' if the role is
-admin, 'Welcome User' if it's user, and 'Welcome Guest' otherwise.*/
+/*Create a function called calculateArea that takes two parameters: length and width. The function
+should return the area of a rectangle. Call the function and print the result.*/
 void main() {
-  bool isAdmin = false;
-  bool isUser = false;
-  if (isAdmin) {
-    print('Welcome User');
-  } else if (isUser) {
-    print('Welcome User');
-  } else {
-    print('Welcome Guest');
-  }
+  print(calculateArea(20, 30));
+}
+
+double calculateArea(double length, double width) {
+  double areaOfRectangle = length * width;
+
+  return areaOfRectangle;
 }

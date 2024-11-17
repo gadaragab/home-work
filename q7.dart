@@ -1,25 +1,30 @@
-/*Exercise: Create a function called calculateGrade that takes a score (0 to 100) as a parameter and returns a letter grade
-(e.g., A, B, C). Then write a main function to call calculateGrade and print the grade for a given score. */
+/*Create a class Car with the following properties:
+- make (String)
+- model (String)
+- year (int)
+Add a method displayInfo() that prints all the car's details. Instantiate a Car object and call its
+displayInfo() method.*/
 
 void main() {
-  calculateGrade(70);
+  Car toyota = Car();
+  toyota.make = 'toyota';
+  toyota.model = 'toyota';
+  toyota.year = 2010;
+
+  toyota.displayInfo();
 }
 
-double calculateGrade(double score) {
-  for (int score = 0;score >= 100; score= score + 10) {
-    if (score == 50) {
-      print("$score your grade is F");
-    } else if (score == 60) {
-      print("$score your grade is E");
-    } else if (score == 70) {
-      print("$score your grade is D");
-    } else if (score == 80) {
-      print("$score your grade is C");
-    } else if (score == 90) {
-      print("$score your grade is B");
-    } else if (score == 100) {
-      print("$score your grade is A");
-    }
+class Car {
+  String? make;
+  String? model;
+  int? year;
+
+  void displayInfo() {
+    print('make$make');
+    print('model is $model');
+    print('year is$year');
+
+    return displayInfo();
   }
 }
-  
+//فيه حاجه غلط مش واضحه

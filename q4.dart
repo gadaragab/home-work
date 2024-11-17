@@ -1,17 +1,23 @@
-/*Create a list of numbers, add a few elements, remove one, and display the final list.
-- Create a set with some duplicate elements and print the set to show that duplicates are removed.
-- Create a map with keys as student names and values as grades. Print a student's grade by accessing their name in
-the map.*/
+/*Write a Dart program to print the first 10 numbers in the Fibonacci sequence.*/
+import 'dart:io';
+
 void main() {
-  List<int> numbers = [12, 14, 16, 18, 20];
-  numbers.add(22);
-  numbers.add(24);
-  numbers.remove(12);
-  print(numbers);
+  print(
+      'note:the primary number in Fibonacci sequence is zero & the second is one');
 
-  Set<num> numbers2 = {30, 40, 30, 50, 60, 40, 70};
-  print(numbers2);
+  //print('Enter the first number ');
+  //int? number1 = int.parse(stdin.readLineSync()!);
 
-  Map<String, double> grades = {'ghada': 90, 'rehab': 100, 'badr': 100};
-  print(grades);
+  // print('Enter the second number ');
+  //int? number2 = int.parse(stdin.readLineSync()!);
+
+  int number1 = 0;
+  int number2 = 1;
+  int number3 = number1 + number2;
+
+  for (int i = 0; i < 10; i = number3 + i) {
+    print(i);
+  }
 }
+//بالشكل دا طبعلي من واحد لتسعه
+ 
